@@ -3,8 +3,8 @@
 if [[ "$TRAVIS_OS_NAME" == "osx" ]]; then
     brew update
     brew install p7zip
-    brew install qt
-    brew link --force qt
+    brew install qt@5
+    brew link --force qt@5
 elif [[ "$TRAVIS_OS_NAME" == "linux" ]]; then
 	sudo apt-get update
 	sudo apt-get install apt=1.2.10

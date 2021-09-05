@@ -2,8 +2,8 @@
 
 export TRAVIS_OS_NAME=osx
 export TRAVIS_BUILD_DIR=.
-export QTC_VER=4.14
-export QTC_PATCH=1
+export QTC_VER=4.15
+export QTC_PATCH=2
 export QTC_DL=mac_x64
 
 scripts/install.sh
